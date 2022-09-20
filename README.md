@@ -47,4 +47,4 @@ I used this project to learn about tailwind, it was really fun to use utility cl
 ## Author
 
 - Website - [João Victor Ribeiro](https://github.com/jvictorribeiro)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/@jvictorribeiro)
+- Frontend Mentor - [@jvictorribeiro](https://www.frontendmentor.io/profile/@jvictorribeiro)
