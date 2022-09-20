@@ -1,6 +1,6 @@
- Frontend Mentor - QR code component solution
+ Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,29 +21,30 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: (https://tourmaline-caramel-088140.netlify.app/)
+- Live Site URL: (https://dapper-alfajores-b79757.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML 5
+- CSS
+- TailwindCSS
 
 ### What I learned
 
-I used this project to remember html and css, it was really good to remeber centering objects and texts.
+I used this project to learn about tailwind, it was really fun to use utility classes to style the component and i think it made the development faster.
 
-```css
-body { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+```html
+<div class="relative">
+    <img class="rounded-xl w-64 self-center" src="/images/image-equilibrium.jpg" alt="Equilibrium Image">
+    <div class="rounded-xl opacity-0 hover:opacity-75 duration-300 absolute inset-0 w-54 h-54 z-10 text-white hover:bg-[#00fff7]">
+        <img class="absolute inset-0 top-20 left-20" src="/images/icon-view.svg" alt="icon view">
+    </div>
+</div>
 ```
 
 ## Author
 
 - Website - [João Victor Ribeiro](https://github.com/jvictorribeiro)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/@jvictorribeiro)
